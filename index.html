@@ -3,69 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Informativa de Tarot</title>
+    <title>Tienda de Tarot</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Menú de Navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Tarot Informativo</a>
+        <a class="navbar-brand" href="#">Tienda de Tarot</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#perfil">Perfil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#tarot">Tarot</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#servicios">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experiencias">Experiencias</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Sección de Perfil -->
-    <section id="perfil" class="container mt-5">
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Bienvenidos a la Tienda de Tarot</h1>
+            <p class="lead">Explora nuestros mazos de tarot, oráculos y más.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="container mt-5">
+        <h2>Productos</h2>
         <div class="row">
             <div class="col-md-4">
-                <img src="perfil.jpg" class="img-fluid rounded-circle" alt="Perfil">
+                <div class="card">
+                    <img src="img/tarot.jpeg" class="card-img-top" alt="Mazo de Tarot">
+                    <div class="card-body">
+                        <h5 class="card-title">Mazo de Tarot</h5>
+                        <p class="card-text">Descubre tu destino con nuestros mazos originales.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-8">
-                <h2>Perfil</h2>
-                <p>Hola, soy [Tu Nombre], un experto en tarot con más de 10 años de experiencia. Mi objetivo es ayudarte a encontrar respuestas y guiarte en tu camino.</p>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/tarot.jpeg" class="card-img-top" alt="Cartas Oráculos">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartas Oráculos</h5>
+                        <p class="card-text">Conéctate con el universo con nuestras cartas divinas.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/tarot.jpeg" class="card-img-top" alt="Manteles para Tarot">
+                    <div class="card-body">
+                        <h5 class="card-title">Manteles para Tarot</h5>
+                        <p class="card-text">Diseños únicos para tus lecturas.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección de Tarot -->
-    <section id="tarot" class="container mt-5">
-        <h2>Tarot</h2>
-        <p>El tarot es una herramienta poderosa para la auto-reflexión y la comprensión de situaciones actuales y futuras. Ofrecemos lecturas precisas y detalladas para ayudarte en tu viaje.</p>
-    </section>
-
-    <!-- Sección de Servicios -->
-    <section id="servicios" class="container mt-5">
-        <h2>Servicios</h2>
+    <!-- Sección de Experiencias -->
+    <section id="experiencias" class="container mt-5">
+        <h2>Experiencias</h2>
         <div class="row">
             <div class="col-md-4">
-                <h3>Lecturas de Tarot</h3>
-                <p>Ofrecemos lecturas personalizadas para ayudarte a tomar decisiones importantes.</p>
+                <img src="img/hero.jpg" alt="Foto de María" class="img-fluid rounded-circle">
             </div>
-            <div class="col-md-4">
-                <h3>Consultas de Vida</h3>
-                <p>Consulta de vida para encontrar el camino correcto y superar obstáculos.</p>
-            </div>
-            <div class="col-md-4">
-                <h3>Clases de Tarot</h3>
-                <p>Aprende a leer el tarot con nuestras clases detalladas y fáciles de seguir.</p>
+            <div class="col-md-8">
+                <h3>Descripción</h3>
+                <p>Soy María, una tarotista con más de 15 años de experiencia. Ayudo a las personas a encontrar claridad y guía a través de las cartas del tarot. Mis lecturas son detalladas y personalizadas, enfocadas en brindar respuestas y apoyo en momentos cruciales de la vida.</p>
+                <h3>Testimonios</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ana Gómez</h5>
+                        <p class="card-text">"Las lecturas de María han sido increíblemente precisas y me han ayudado a tomar decisiones importantes en mi vida."</p>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Carlos Pérez</h5>
+                        <p class="card-text">"La guía de María me ha permitido ver las cosas desde una nueva perspectiva y encontrar el camino correcto."</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -88,11 +115,17 @@
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
+        <div class="social mt-3">
+            <h3>Conéctate con nosotros</h3>
+            <a href="https://wa.me/tu-numero-de-whatsapp" class="btn btn-success"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://www.facebook.com/tuperfil" class="btn btn-primary"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="https://www.instagram.com/tuperfil" class="btn btn-danger"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
     </section>
 
     <!-- Pie de Página -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Tarot Informativo. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Tienda de Tarot. Todos los derechos reservados.</p>
     </footer>
 
     <!-- Scripts de Bootstrap -->

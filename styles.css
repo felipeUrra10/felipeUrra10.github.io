@@ -2,13 +2,26 @@ body {
     padding-top: 56px; /* Espacio para el menú de navegación fijo */
 }
 
-#perfil img {
-    max-width: 100%;
-    height: auto;
+.jumbotron {
+    background-color: #f8f9fa;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social a {
+    margin: 0 10px;
 }
